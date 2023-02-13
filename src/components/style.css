@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  margin-left: 15%;
+  padding: 5%;
+}
+
+.event1 {
+  width: 80%;
+  height: 80%;
+}
+
+.registerBtn {
+  padding: 0.5%;
+  font-size: medium;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.5%;
+  margin-right: 2%;
+}
+
+.loginBtn {
+  padding: 0.5%;
+  font-size: medium;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.5%;
+  margin-right: 2%;
+}
+
+.registerBtn:hover {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+}
+
+.loginBtn:hover {
+  background-color: steelblue;
+  color: white;
+  border: none;
+}
+
+.about {
+  width: 70%;
+  text-align: justify;
+}
+
+.eventName {
+  font-size: x-large;
+  font-family: sans-serif;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 20%;
+}
+
+.btn {
+  padding: 5px;
+  background-color: steelblue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin: 2px;
+  width: 10%;
+}
+
+.btn2 {
+  padding: 5px;
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin: 2px;
+  width: 10%;
+}
+
+label {
+  padding: 5px;
+  font-weight: bold;
+  font-size: medium;
+  font-family: sans-serif;
+}
